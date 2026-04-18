@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content=" Belle Vie Spa & Barbershop in Diani Beach. Call or WhatsApp for hair, nails, massage, facials, and grooming services. Book appointments via WhatsApp or phone. Visit us at Diani Beach Road for professional beauty services.">
+    <title>Contact & Book | Belle Vie Spa & Barbershop</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+
+    <header class="site-header" id="top">
+        <div class="container header-inner">
+            <a class="brand" href="index.html" aria-label="Belle Vie Spa & Barbershop home">
+                <img src="images/logo image.jpeg" alt="Belle Vie Spa & Barbershop Logo"
+                    class="logo-image brand-logo-round">
+                <div class="brand-copy">
+                    <p class="brand-name">Belle Vie</p>
+                    <p class="brand-meta">Spa & Barbershop</p>
+                </div>
+            </a>
+
+            <button class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="site-nav"
+                aria-label="Open menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <nav class="site-nav" id="site-nav" aria-label="Primary navigation">
+                <a href="index.html">Home</a>
+                <a href="services.html">Services</a>
+                <a href="#contact">Contact</a>
+                <a class="button button-outline button-nav" href="tel:+254750573891" data-phone-link>Call Spa</a>
+                <a class="button button-whatsapp button-nav"
+                    href="https://wa.me/254750573891?text=Hi%2C%20I%27d%20like%20to%20book%20an%20appointment."
+                    data-whatsapp-link>Book via WhatsApp</a>
+            </nav>
+        </div>
+    </header>
+
+    <main id="main-content">
+        <section class="section section-cta" id="contact">
+            <div class="container booking-grid">
+                <div class="contact-panel" data-reveal>
+                    <p class="eyebrow">Book Your Visit</p>
+                    <h2>Ready to look and feel your best?</h2>
+                    <p>
+                        Let us rejuvenate you with our beauty, barbering, and spa services in Diani. Book quickly by
+                        WhatsApp or phone, or send us a message if you have questions about which service is right for
+                        you.
+                    </p>
+
+                    <div class="contact-actions">
+                        <a class="contact-action-card"
+                            href="https://wa.me/254750573891?text=Hi%2C%20I%27d%20like%20to%20book%20an%20appointment."
+                            data-whatsapp-link>
+                            <span class="contact-action-label">WhatsApp</span>
+                            <strong>Chat to book instantly</strong>
+                            <small>Ideal for service questions and same-week availability.</small>
+                        </a>
+
+                        <a class="contact-action-card" href="tel:+254750573891" data-phone-link>
+                            <span class="contact-action-label">Phone</span>
+                            <strong data-phone-display>+254 750 573 891</strong>
+                            <small>Tap to call the spa and barber shop directly during business hours.</small>
+                        </a>
+                    </div>
+
+                    <div class="contact-details">
+                        <article>
+                            <span>Location</span>
+                            <strong data-address>Along Diani Beach Road opp Rockstar Village</strong>
+                        </article>
+                        <article>
+                            <span>Hours</span>
+                            <strong data-hours>Mon - Sat: 8:00 AM - 9:00 PM | Sun: 8:00 AM - 9:00 PM</strong>
+                        </article>
+                        <article>
+                            <span>Social</span>
+                            <strong class="social-inline">
+                                <a href="https://www.instagram.com/spa_bellevie_diani/"
+                                    target="_blank" rel="noreferrer" data-social="instagram">Instagram</a>
+                                <a href="https://www.tiktok.com/@bellevie1231" target="_blank" rel="noreferrer"
+                                    data-social="tiktok">TikTok</a>
+                            </strong>
+                        </article>
+                    </div>
+                </div>
+
+                <div class="booking-form-card" data-reveal>
+                    <div class="form-header">
+                        <p class="eyebrow">Quick Booking</p>
+                        <h2>Send your request in one step.</h2>
+                        <p>Submitting this form opens WhatsApp with your appointment details pre-filled.</p>
+                    </div>
+
+                    <form class="booking-form" id="booking-form">
+                        <div class="form-grid">
+                            <label>
+                                <span>Name</span>
+                                <input type="text" name="name" placeholder="Your full name" required>
+                            </label>
+
+                            <label>
+                                <span>Service</span>
+                                <select name="service" required>
+                                    <option value="">Choose a service</option>
+                                    <option value="Braiding">Braiding</option>
+                                    <option value="Dreadlocks">Dreadlocks</option>
+                                    <option value="Lashes">Lashes</option>
+                                    <option value="Wigs">Wigs</option>
+                                    <option value="Weaving">Weaving</option>
+                                    <option value="Hair Color & Dye">Hair Color & Dye</option>
+                                    <option value="Nails">Nails</option>
+                                    <option value="Spa & Massage">Spa & Massage</option>
+                                    <option value="Facial">Facial</option>
+                                    <option value="Waxing">Waxing</option>
+                                    <option value="Makeup">Makeup</option>
+                                </select>
+                            </label>
+
+                            <label>
+                                <span>Preferred date</span>
+                                <input type="date" name="date" id="booking-date">
+                            </label>
+
+                            <label>
+                                <span>Phone or Instagram</span>
+                                <input type="text" name="contact" placeholder="How should we reach you?" required>
+                            </label>
+                        </div>
+
+                        <label>
+                            <span>Anything to note?</span>
+                            <textarea name="notes" rows="4"
+                                placeholder="Preferred style, treatment details, or booking time."></textarea>
+                        </label>
+
+                        <button class="button button-whatsapp button-lg" type="submit">Send booking request</button>
+                        <p class="form-note">No extra steps. We turn your details into a ready-to-send WhatsApp message.
+                        </p>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- LOCATION MAP SECTION -->
+        <section class="section section-map" id="location-map">
+            <div class="container">
+                <div class="map-header" data-reveal>
+                    <p class="eyebrow">Find Us</p>
+                    <h2>Visit Belle Vie Spa & Barbershop in Diani </h2>
+                    <p>Located on Diani Beach Road, across from Rockstar Village. Easy to find and open 7 days a week.
+                    </p>
+                </div>
+
+                <div class="map-container" data-reveal>
+                    <!-- Google Maps Embed for Belle Vie Diani -->
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1989.3283633414137!2d39.57575773818422!3d-4.286723498921789!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x18404586648036e1%3A0xb5c67b64a5a21417!2sBelle%20Vie%20spa%20and%20barbershop%20diani!5e0!3m2!1sen!2sus!4v1775978757636!5m2!1sen!2sus"
+                        width="100%" height="500" style="border:0; border-radius: var(--radius-lg);" allowfullscreen=""
+                        loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+
+                <div class="location-details" data-reveal>
+                    <div class="detail-card">
+                        <strong>Address</strong>
+                        <p>Along Diani Beach Road<br>Opposite Rockstar Village<br>Diani, Kenya</p>
+                    </div>
+                    <div class="detail-card">
+                        <strong>Hours</strong>
+                        <p>Monday - Sunday<br>8:00 AM - 9:00 PM</p>
+                    </div>
+                    <div class="detail-card">
+                        <strong>Get in Touch</strong>
+                        <p><a href="tel:+254750573891">Call: +254 750 573 891</a><br>
+                            <a href="https://wa.me/254750573891">WhatsApp: +254 750 573 891</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer" id="footer">
+        <div class="container footer-content">
+            <div class="footer-section">
+                <p class="footer-title">Belle Vie Spa & Barbershop</p>
+                <p>Premium beauty, spa, and wellness services in Diani, Kenya.</p>
+            </div>
+            <div class="footer-section">
+                <p class="footer-title">Quick Links</p>
+                <nav class="footer-links-vertical">
+                    <a href="index.html">Home</a>
+                    <a href="services.html">Services</a>
+                    <a href="#contact">Contact & Book</a>
+                </nav>
+            </div>
+            <div class="footer-section">
+                <p class="footer-title">Get in Touch</p>
+                <p><a href="tel:+254750573891">+254 750 573 891</a></p>
+                <p><a href="https://wa.me/254750573891">WhatsApp: +254 750 573 891</a></p>
+                <div class="social-icons">
+                    <a href="https://wa.me/254750573891?text=Hi%2C%20I%27d%20like%20to%20book%20an%20appointment." class="social-link whatsapp" aria-label="WhatsApp"
+                        title="WhatsApp">💬</a>
+                    <a href="https://www.instagram.com/spa_bellevie_diani/" class="social-link instagram" aria-label="Instagram"
+                        title="Instagram">f</a>
+                    <a href="https://www.tiktok.com/@bellevie1231" class="social-link tiktok" aria-label="TikTok" title="TikTok">♪</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Belle Vie Spa & Barbershop. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
+
+
